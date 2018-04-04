@@ -1,0 +1,14 @@
+<% include partials/header %>
+    <h1><%= title %></h1>
+    <p><%= time %></p>
+    <ul>
+        <% lista.forEach((item) => { %>
+            <li>Nome: <%= item %></li>
+        <% }) %>
+    </ul>
+    <ul>
+        <% animais.forEach((item) => { %>
+            <li>Nome: <%= item.name %></li>
+        <% }) %>
+    </ul>
+<% include partials/footer %>
