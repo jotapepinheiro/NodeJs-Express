@@ -8,6 +8,7 @@ const clientsRouter = require('./routes/clients')
 // console.log(path.join(__dirname, 'views'))
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
+
 /*
 //Middleware exemplo: checar se usuario esta logado em seguida dar next
 app.use((rep, res, next) => {
